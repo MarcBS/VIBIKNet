@@ -37,7 +37,6 @@ If you want to use pretrained word embeddings, you can either train them by your
 
 ## How to use
  
- - For training a new model, follow the procedure described at [training](docs/train.md).
  - For extracting KCNN features, see the following [README](./features_extraction/KCNN/README.md).
  - For training a new model, follow the [train README](./VIBIKNet/README.md).
  - For visualizing the results, follow the [visualize_results](./VIBIKNet/visualize_results.ipynb) notebook.
