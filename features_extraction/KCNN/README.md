@@ -17,12 +17,12 @@ treated separately.
 samples and stores the parameters.
 
   - 4) applyNormPCA_test.m
-  - 
-Applies the parameters extracted in applyNormPCA.m to all the samples in the dataset.
+  
+  Applies the parameters extracted in applyNormPCA.m to all the samples in the dataset.
 
   - 5) learnGMM.m	**training only**
   
-A Gaussian Mixture Model is learned using the PCA features of the training samples
+  A Gaussian Mixture Model is learned using the PCA features of the training samples
 and stores the corresponding parameters.
 
   - 6) transformFVs.m
