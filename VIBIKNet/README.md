@@ -1,7 +1,7 @@
 # VIBIKNet for VQA
 
 This file shows how to configure the training of a VIBIKNet model. It assumes that the image features have been 
-previously extracted as described in the [feature extraction tutorial](./features_extraction/README.md).
+previously extracted as described in the [feature extraction tutorial](../features_extraction/KCNN/README.md).
  
 1) Download the [VQA](http://visualqa.org/download.html) dataset and place it under a folder, for instance: `./VQA`.
   
