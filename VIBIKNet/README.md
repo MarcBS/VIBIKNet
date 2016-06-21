@@ -33,8 +33,10 @@ dest_file = 'glove_300'
 
 * And point the `GLOVE_VECTORS` variable from `VIBIKNet/config.py` to this `base_path + dest_file + '.npy'`:
 
-`GLOVE_VECTORS = DATA_ROOT_PATH + 'Glove/' + 'glove_300.npy'`
 
+```python
+GLOVE_VECTORS = DATA_ROOT_PATH + 'Glove/' + 'glove_300.npy'
+```
 
  
 5) Next, let's configure the model. The file `VIBIKNet/config.py` contains the configuration options. All the options
