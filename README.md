@@ -28,14 +28,19 @@ If you want to extract KCNN features you will need (see the following [README](.
  - [Piotr Dollar toolbox](https://github.com/pdollar/toolbox). Download into /repository_root/piotr_toolbox folder.
  - [Inria's Yael library](https://gforge.inria.fr/projects/yael/) for Matlab. Download into /repository_root/yael folder and compile for you system. See yael's release notes for more information.
 
-If you want to use GLOVE word embedding:
+If you want to use pretrained word embeddings, you can either train them by yourself using
+ [Glove](http://nlp.stanford.edu/projects/glove/) or [Word2Vec](https://code.google.com/archive/p/word2vec/), 
+ or download pretrained word embeddings (recommended):
+
+ - [Pretrained Glove vectors](http://nlp.stanford.edu/data/glove.42B.300d.zip)
+ - [Pretrained Word2Vec vectors](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
 
 
 ## How to use
  
  - For training a new model, follow the procedure described at [training](docs/train.md).
  - For extracting KCNN features, see the following [README](./features_extraction/KCNN/README.md).
- - For training a new model, follow the [train](./VIBIKNet/README.md) notebook.
+ - For training a new model, follow the [train README](./VIBIKNet/README.md).
  - For visualizing the results, follow the [visualize_results](./VIBIKNet/visualize_results.ipynb) notebook.
 
 
