@@ -5,7 +5,6 @@ With this module, you can replicate our experiments and easily deploy new models
 [Keras](https://github.com/fchollet/keras) framework and tested for the [Theano](http://deeplearning.net/software/theano)
 backend.
 
-Code available soon.
 
 ## Installation
 
