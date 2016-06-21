@@ -50,21 +50,14 @@ of the FVs for all the samples. Stores the samples in separate data splits
 ## Citations
 
 ```
-@article{liu2015kernelized,
-  title={Kernelized Deep Convolutional Neural Network for Describing Complex Images},
-  author={Liu, Zhen},
-  journal={arXiv preprint arXiv:1509.04581},
-  year={2015}
-}
+Liu Z. 
+Kernelized Deep Convolutional Neural Network for Describing Complex Images. 
+arXiv preprint arXiv:1509.04581. 2015 Sep 15.
 ```
 
 ```
-@inproceedings{zitnick2014edge,
-  title={Edge boxes: Locating object proposals from edges},
-  author={Zitnick, C Lawrence and Doll{\'a}r, Piotr},
-  booktitle={European Conference on Computer Vision},
-  pages={391--405},
-  year={2014},
-  organization={Springer}
-}
+Zitnick CL, Dollár P. 
+Edge boxes: Locating object proposals from edges. 
+In European Conference on Computer Vision 2014 Sep 6 (pp. 391-405). Springer International Publishing.
+
 ```
