@@ -87,3 +87,18 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Created by .ignore support plugin (hsz.mobi)
+
+
+# Models
+*.pkl
+*.json
+*.h5
+*.npy
+*.zip
+
+# Training results
+*.vqa
+*.coco
+*.pred
+*.txt
+

@@ -40,3 +40,31 @@ calculation.
   Uses the parameters learned in the previous function for reducing the dimensionality 
 of the FVs for all the samples. Stores the samples in separate data splits 
 {train,val,test}.
+
+
+## General KCNN extraction scheme
+
+![Examples](./docs/CVPR_KCNN.png)
+
+
+## Citations
+
+'''
+@article{liu2015kernelized,
+  title={Kernelized Deep Convolutional Neural Network for Describing Complex Images},
+  author={Liu, Zhen},
+  journal={arXiv preprint arXiv:1509.04581},
+  year={2015}
+}
+'''
+
+'''
+@inproceedings{zitnick2014edge,
+  title={Edge boxes: Locating object proposals from edges},
+  author={Zitnick, C Lawrence and Doll{\'a}r, Piotr},
+  booktitle={European Conference on Computer Vision},
+  pages={391--405},
+  year={2014},
+  organization={Springer}
+}
+'''
