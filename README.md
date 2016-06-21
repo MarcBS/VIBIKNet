@@ -33,9 +33,10 @@ If you want to use GLOVE word embedding:
 
 ## How to use
  
+ - For training a new model, follow the procedure described at [training](docs/train.md).
  - For extracting KCNN features, see the following [README](./features_extraction/KCNN/README.md).
- - For training a new model, follow the [train](ttps://github.com/MarcBS/VIBIKNet/tutorials/train.ipynb) notebook.
- - For using a trained model, follow the [visualize_results](ttps://github.com/MarcBS/VIBIKNet/tutorials/visualize_results.ipynb) notebook.
+ - For training a new model, follow the [train](./VIBIKNet/README.md) notebook.
+ - For visualizing the results, follow the [visualize_results](./VIBIKNet/visualize_results.ipynb) notebook.
 
 
 ## VIBIKNet model at the CVPR VQA Challenge
