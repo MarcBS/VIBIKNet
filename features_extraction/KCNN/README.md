@@ -44,21 +44,21 @@ of the FVs for all the samples. Stores the samples in separate data splits
 
 ## General KCNN extraction scheme
 
-![Examples](./docs/CVPR_KCNN.png)
+![KCNN_scheme](../../docs/CVPR_KCNN.png)
 
 
 ## Citations
 
-'''
+```
 @article{liu2015kernelized,
   title={Kernelized Deep Convolutional Neural Network for Describing Complex Images},
   author={Liu, Zhen},
   journal={arXiv preprint arXiv:1509.04581},
   year={2015}
 }
-'''
+```
 
-'''
+```
 @inproceedings{zitnick2014edge,
   title={Edge boxes: Locating object proposals from edges},
   author={Zitnick, C Lawrence and Doll{\'a}r, Piotr},
@@ -67,4 +67,4 @@ of the FVs for all the samples. Stores the samples in separate data splits
   year={2014},
   organization={Springer}
 }
-'''
+```
