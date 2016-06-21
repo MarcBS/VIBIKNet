@@ -102,3 +102,5 @@ crashlytics-build.properties
 *.pred
 *.txt
 
+# Others
+*.pyc
