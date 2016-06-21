@@ -66,7 +66,7 @@ arXiv preprint arXiv:1604.03390. 2016 Apr 12.
 ```
 Malinowski M, Rohrbach M, Fritz M. 
 Ask your neurons: A neural-based approach to answering questions about images. 
-InProceedings of the IEEE International Conference on Computer Vision 2015 (pp. 1-9).
+In Proceedings of the IEEE International Conference on Computer Vision 2015 (pp. 1-9).
 ```
 
 ## About
