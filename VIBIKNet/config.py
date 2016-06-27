@@ -63,7 +63,6 @@ def load_parameters():
     KEEP_TOP_ANSWERS = True # select only top 'OUTPUT_VOCABULARY_SIZE' answers from the training set and remove remaining samples
     FILTER_ANSWERS = True # filter top appearing answers for a single question-image pair
     K_FILTER = 1 # number of answers per question kept after filtering
-    CLASSIFIER_ACTIVATION = 'softmax'
 
     # Optimizer parameters (see model.compile() function)
     LOSS = 'categorical_crossentropy'
