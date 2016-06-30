@@ -1,6 +1,6 @@
 # VIBIKNet
 This repository contains the code for the Visual Bidirectional Kernelized Network for Visual Question Answering,
-presented to the [VQA Challenge](http://visualqa.org/challenge.html) at CVPR'16. 
+presented at the [VQA Challenge](http://visualqa.org/challenge.html) at CVPR'16. 
 With this module, you can replicate our experiments and easily deploy new models. VIBIKNet is built upon the 
 [Keras](https://github.com/fchollet/keras) framework and tested for the [Theano](http://deeplearning.net/software/theano)
 backend.
