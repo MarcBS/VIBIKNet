@@ -43,6 +43,8 @@ If you want to use pretrained word embeddings, you can either train them by your
 
 
 ## VIBIKNet model at the CVPR VQA Challenge
+
+See CVPR poster [here](docs/CVPR_Poster.pdf).
  
 ![CVPR_model](./docs/CVPR_model.png)
 
