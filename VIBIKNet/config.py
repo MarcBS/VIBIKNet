@@ -4,8 +4,8 @@ def load_parameters():
     """
 
     # Input data params
-    #DATA_ROOT_PATH = '/home/lvapeab/smt/tasks/image_desc/VQA/'  # Root path to the data
-    DATA_ROOT_PATH = '/media/HDD_2TB/DATASETS/VQA/'
+    DATA_ROOT_PATH = '/home/lvapeab/smt/tasks/image_desc/VQA/'  # Root path to the data
+    #DATA_ROOT_PATH = '/media/HDD_2TB/DATASETS/VQA/'
     DATASET_NAME = 'VQA'  # Dataset name
 
     IMG_FILES = {'train': ['Images/mscoco/train_list_features.txt',  # Image and features files
@@ -48,7 +48,8 @@ def load_parameters():
 
     # Word representation params
     TOKENIZATION_METHOD = 'tokenize_questions'  # Select which tokenization we'll apply:
-    # tokenize_basic or tokenize_questions (recommended)
+                                                # 'tokenize_basic' or 'tokenize_questions' (recommended)
+    FILL = 'end' # Select the padding mode: 'start' or 'end' (recommended)
 
     # Input image parameters
     IMG_FEAT_SIZE = 1024  # Size of the image features
