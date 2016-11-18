@@ -1,18 +1,19 @@
 
 - Requirements
-	Matlab
-	Caffe compiled
-	Caffe's Matlab wrapper compiled '/path/to/caffe/matlab'
+	- Matlab
+	- Caffe compiled
+	- Caffe's Matlab wrapper compiled '/path/to/caffe/matlab'
 
 - Extract Features from last Fully-Connected layer (usual feature extraction)
 
 	1) In mainExtractFCLayer change the following parameters:
-		CNN_params.caffe_path: path to caffe's matlab wrapper
-		data_path: path where all the image folders are stored
-		folders: cell array with list of folders to process
-		formats: iamge formats for each of the folders
-		CNN_params.model_def_file: path to each network model file (one for Places and the other for ImageNet)
-		CNN_params.model_file: path to the trained model weights
+	
+		- CNN_params.caffe_path: path to caffe's matlab wrapper
+		- data_path: path where all the image folders are stored
+		- folders: cell array with list of folders to process
+		- formats: iamge formats for each of the folders
+		- CNN_params.model_def_file: path to each network model file (one for Places and the other for ImageNet)
+		- CNN_params.model_file: path to the trained model weights
 
 	2) Run mainExtractFCLayer.m --> will extract the CNN features for all the folders
 
