@@ -1,3 +1,19 @@
+## Dependencies
+
+- Matlab 2014a or newer.
+
+- Caffe. Download into ~/code/caffe folder or change path in extractCNNfeatures.m
+https://github.com/BVLC/caffe
+
+- EdgeBoxes object detection. Download into /repository_root/edges folder.
+https://github.com/pdollar/edges
+
+- Piotr Dollar toolbox. Download into /repository_root/piotr_toolbox folder.
+https://github.com/pdollar/toolbox
+
+- Inria's Yael library for Matlab. Download into /repository_root/yael folder and compile for you system. See yael's release notes for more information.
+https://gforge.inria.fr/projects/yael/
+
 ## Steps to follow when executing the KCNN functions
 
   - 1) extractObjectProposals.m
