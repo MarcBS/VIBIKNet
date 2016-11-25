@@ -24,17 +24,17 @@ def build_dataset(params):
         ### QUESTIONS
         ds.setInput(base_path+'/'+params['QST_FILES']['train'][0], 'train',
                    type='text', id=params['INPUTS_IDS_DATASET'][0],
-                   tokenization=params['TOKENIZATION_METHOD'], build_vocabulary=True, 
+                   tokenization=params['TOKENIZATION_METHOD'], build_vocabulary=True, fill=params['FILL'],
                    max_text_len=params['MAX_INPUT_TEXT_LEN'], max_words=params['INPUT_VOCABULARY_SIZE'],
                    repeat_set=params['REPEAT_QST'])
         ds.setInput(base_path+'/'+params['QST_FILES']['val'][0], 'val',
                    type='text', id=params['INPUTS_IDS_DATASET'][0],
-                   tokenization=params['TOKENIZATION_METHOD'],
+                   tokenization=params['TOKENIZATION_METHOD'], fill=params['FILL'],
                    max_text_len=params['MAX_INPUT_TEXT_LEN'], max_words=params['INPUT_VOCABULARY_SIZE'],
                    repeat_set=params['REPEAT_QST'])
         ds.setInput(base_path+'/'+params['QST_FILES']['test'][0], 'test',
                    type='text', id=params['INPUTS_IDS_DATASET'][0],
-                   tokenization=params['TOKENIZATION_METHOD'], 
+                   tokenization=params['TOKENIZATION_METHOD'], fill=params['FILL'],
                    max_text_len=params['MAX_INPUT_TEXT_LEN'], max_words=params['INPUT_VOCABULARY_SIZE'],
                    repeat_set=params['REPEAT_QST'])
         ### QUESTIONS' associated IDs
@@ -77,16 +77,16 @@ def build_dataset(params):
         ### ANSWERS
         ds.setOutput(base_path+'/'+params['ANS_FILES']['train'][0], 'train',
                    type='text', id=params['OUTPUTS_IDS_DATASET'][0],
-                   tokenization=params['TOKENIZATION_METHOD'], build_vocabulary=True, 
+                   tokenization=params['TOKENIZATION_METHOD'], build_vocabulary=True, fill=params['FILL'],
                    max_text_len=params['MAX_OUTPUT_TEXT_LEN'], max_words=params['OUTPUT_VOCABULARY_SIZE'])
         ds.setOutput(base_path+'/'+params['ANS_FILES']['val'][0], 'val',
                    type='text', id=params['OUTPUTS_IDS_DATASET'][0],
-                   tokenization=params['TOKENIZATION_METHOD'],
+                   tokenization=params['TOKENIZATION_METHOD'], fill=params['FILL'],
                    max_text_len=params['MAX_OUTPUT_TEXT_LEN'], max_words=params['OUTPUT_VOCABULARY_SIZE'])
         if 'test' in params['ANS_FILES']:
             ds.setOutput(base_path+'/'+params['ANS_FILES']['test'][0], 'test',
                        type='text', id=params['OUTPUTS_IDS_DATASET'][0],
-                       tokenization=params['TOKENIZATION_METHOD'], 
+                       tokenization=params['TOKENIZATION_METHOD'], fill=params['FILL'],
                        max_text_len=params['MAX_OUTPUT_TEXT_LEN'], max_words=params['OUTPUT_VOCABULARY_SIZE'])
 
         

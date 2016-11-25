@@ -1,6 +1,6 @@
 # VIBIKNet
 This repository contains the code for the Visual Bidirectional Kernelized Network for Visual Question Answering,
-presented to the [VQA Challenge](http://visualqa.org/challenge.html) at CVPR'16. 
+presented at the [VQA Challenge](http://visualqa.org/challenge.html) at CVPR'16. 
 With this module, you can replicate our experiments and easily deploy new models. VIBIKNet is built upon the 
 [Keras](https://github.com/fchollet/keras) framework and tested for the [Theano](http://deeplearning.net/software/theano)
 backend.
@@ -43,6 +43,8 @@ If you want to use pretrained word embeddings, you can either train them by your
 
 
 ## VIBIKNet model at the CVPR VQA Challenge
+
+See CVPR poster [here](https://www.researchgate.net/publication/304623360_VIBIKNet_Visual_Bidirectional_Kernelized_Network_for_Visual_Question_Answering).
  
 ![CVPR_model](./docs/CVPR_model.png)
 
