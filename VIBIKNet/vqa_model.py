@@ -3,7 +3,7 @@ from keras.engine.topology import merge
 from keras.layers.core import Dropout, RepeatVector, Merge, Dense, Flatten, Activation, TimeDistributedDense, Lambda
 from keras.layers.embeddings import Embedding
 from keras.layers.recurrent import LSTM, Bidirectional
-from keras.models import model_from_json, Sequential, Graph, Model
+from keras.models import model_from_json, Sequential, Model
 from keras.layers.advanced_activations import PReLU
 from keras.layers.normalization import BatchNormalization
 from keras.optimizers import Adam
@@ -97,7 +97,7 @@ class VQA_Model(CNN_Model):
             Sets a new optimizer for the Translation_Model.
         """
 
-        # compile differently depending if our model is 'Sequential' or 'Graph'
+        # compile differently depending if our model is 'Sequential'
         if self.verbose > 0:
             logging.info("Preparing optimizer and compiling.")
 
