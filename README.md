@@ -11,7 +11,7 @@ backend.
 VIBIKNet requires the following libraries:
 
  - [Our version of Keras](https://github.com/MarcBS/keras) v1.0.4 or newer
- - [Staged Keras Wrapper](https://github.com/MarcBS/staged_keras_wrapper) v0.1 or newer
+ - [Multimodal Keras Wrapper](https://github.com/MarcBS/staged_keras_wrapper) v0.1 or newer
  - [VQA challenge evaluation scripts](https://github.com/lvapeab/coco-caption/tree/master/pycocoevalcap/vqa)
 
 Additionally, if you want to run the tutorials and the visualization module, you'll need:
